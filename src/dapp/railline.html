@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>trainSurety</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="trainsurance.css" rel="stylesheet">
+    <style>
+        main{
+            color: aliceblue;
+        }
+    </style>
+    <!-- Add the below code if you want an icon to appear on the tab -->
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+                <div class="site-nav__name">
+                    <a href="index.html">
+                        <span >
+                            <img src="train.jpg" ALT="some text" WIDTH=100 HEIGHT=80>
+                        </span>
+                        <span>
+                            <h2>trainSurance</h2>
+                        </span>
+        
+                    </a>
+                </div>
+                
+                <ul>
+                    <li>
+                        <a href="about.html"> 
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="passenger.html"> 
+                            Passenger Functions
+                        </a>
+                    </li>
+                    <li>
+                        <a href="railline.html"> 
+                            railline Functions
+                        </a>
+                    <li >
+                        <a href="index.html"> 
+                            Admin Functions
+                        </a>
+                    </li>
+    
+                    
+                <!-- </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+            </nav>
+    </header>
+
+    <main class="main_container"> 
+        <h1> railline Functions </h1>
+        <section class="reg">
+            <h4>Register railline</h4>
+            <h6> railline Address </h6>
+            <input type="text-in-railline" id="train-register-address" placeholder="railline address"> 
+            <h6> railline Name </h6>
+            <input type="text-in-railline" id="train-register-name" placeholder="railline name">
+            
+            <div class= "btn_container" style="text-align:center;">    
+                <btn class="btn-primary" id="submit-railline">Register railline</btn>
+            </div>
+
+        </section>
+        <section class="fund">
+            <h4>Fund railline</h4>
+            <h6> Fund Amount </h6>
+            <input type="text-in-railline" id= "railline-fund" placeholder="Fund amount"> </input>
+            <h6> Fund railline Address </h6>
+            <input type="text-in-railline" id= "railline-fund-address" placeholder="Funding railline address"> </input>
+            <div class = "btn_container" style="text-align:center;">    
+                <btn class = "btn-primary" id="submit-railline-funding"> Submit Funding Amount </btn>
+            </div>
+        </section>
+
+        <section class="newtrain">
+            <h4>Register New train</h4>
+            <h6> train Number </h6>
+            <input type="text-in-railline" id= "train-register" placeholder="Insert train number here"> </input>
+            <h6> train Time (December 17, 1995 03:24:00)</h6>
+            <input type="text-in-railline" id= "train-time" placeholder="train time (e.g. December 17, 1995 03:24:00)"> </input>
+            <h6> Maximum Individual Insurance Amount </h6>
+            <div>
+                <input type="text-in-railline" id= "max-individual-insurance-amount" placeholder="Maximum Insurance Amount"> </input> 
+                <label> ETH</label>
+            </div>
+            <h6> Maximum Total Insurance Amount </h6>
+            <div>
+                <input type="text-in-railline" id= "max-total-insurance-amount" placeholder="Max Amount"> </input>
+                <label> ETH</label>
+            </div>
+            <h6> train Status </h6>
+            <p id="train-status-code-information"> STATUS_CODE_UNKNOWN = 0 </p>
+            <p id="train-status-code-information"> STATUS_CODE_ON_TIME = 10 </p>
+            <p id="train-status-code-information"> STATUS_CODE_LATE_railline = 20 </p>
+            <p id="train-status-code-information"> STATUS_CODE_LATE_WEATHER = 30 </p>
+            <p id="train-status-code-information"> STATUS_CODE_LATE_TECHNICAL = 40 </p>
+            <p id="train-status-code-information"> STATUS_CODE_LATE_OTHER = 50 </p>
+
+            <input type="text-in-railline" id= "train-status" placeholder="Codes Above"> </input>
+            
+            
+            <div class = "btn_container" style="text-align:center;">    
+                <btn class = "btn-primary" id="submit-train-info"> Submit train Information </btn>
+            </div>
+        </section>
+
+        <h4>railline Registration Ledger</h4>
+
+        <div id="display-wrapper-registered-raillines" class="registered-raillines"> </div>
+
+    </main> 
+</body>
+
+</html>

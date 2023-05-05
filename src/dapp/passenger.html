@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>trainSurance</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="trainsurance.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="site-nav__name">
+                <a class="navbar-brand" href="index.html">
+                    <span class="icon_span">
+                        <img src="train.jpg" ALT="some text" WIDTH=100 HEIGHT=80>
+                    </span>
+                    <span class="site-nav__name-link__name">
+                        <h2 class="nav_logo_title">trainSurance</h2>
+                    </span>
+    
+                </a>
+            </div>
+            
+            <ul>
+                <li>
+                    <a class = "site-nav-a" href="about.html"> 
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="passenger.html"> 
+                    Passenger Functions
+                    </a>
+                </li>
+                <li>
+                    <a href="railline.html"> 
+                        railline Functions
+                    </a>
+                <li>
+                    <a  href="index.html"> 
+                    Admin Functions
+                    </a>
+                </li>
+
+                
+            <!-- </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+        </nav>
+    </header>
+    
+    <main class="main_container">
+        <h1> Passenger - Buy Insurance </h1>
+        <section>
+            <h4> train Code (e.g. 32ed) </h4>
+            <input type = "text-in-passenger" id="train-number" placeholder="TL112"> </input>
+        </section>
+        
+        
+        <section>
+            <h4> Insurance Amount </h4>
+            
+            <div>
+                <input type = "text-in-passenger" id="insurance-amount" placeholder="0"> </input>
+                
+
+            </div>
+            
+            <div class= "row btn_container" style="text-align:center;">    
+                <btn class = "btn-primary" id="get-trains"> Get trains </btn>
+                <btn class = "btn-primary" id="buy-insurance"> Buy Insurance </btn>
+            </div>
+        </section>
+
+
+        <section>
+
+            <!-- Set up the update on the front page so that the user knows he has bought insurance.  -->
+            <h4> User train Insurances </h4>
+            <!-- Add a functionality that allows the user to check how many insurances he has. -->
+            <div id= "display-wrapper-bought-insurance"></div>
+        </section>
+
+
+
+
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>trainSurance</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="trainsurance.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="site-nav__name">
+                <a class="navbar-brand" href="index.html">
+                    <span class="icon_span">
+                        <img src="train.jpg" ALT="some text" WIDTH=100 HEIGHT=80>
+                    </span>
+                    <span class="site-nav__name-link__name">
+                        <h2 class="nav_logo_title">trainSurance</h2>
+                    </span>
+    
+                </a>
+            </div>
+            
+            <ul>
+                <li>
+                    <a href="about.html"> 
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="passenger.html"> 
+                        Passenger Functions
+                    </a>
+                </li>
+                <li>
+                    <a href="railline.html"> 
+                        railline Functions
+                    </a>
+                <li>
+                    <a href="index.html"> 
+                        Admin Functions
+                    </a>
+                </li>
+
+<!--                 
+            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+        </nav>
+    </header>
+    
+    
+    <!-- class is accessible in css, id is accessible in js -->
+    <main class="main_container">
+        <h1> Admin Functions </h1>
+        <h6> These buttons below allow the contract deployer to stop the operation of the contract if something unexpected occurs. This might include exploiters utilizing a mistake made in the code, in which case the contract owner should fix. There are many instances in which this has occured creating widespan panic, such as the DAO attack.</h6>
+        <section>
+            <h4>App Contract Operational Status</h4>
+            <h6> These buttons control the front end data collection which can be manipulated </h6>
+            <div class="row btn_container"> <btn class="btn-primary" id="app-operational-status-on">Turn App Operational Status On</btn> <btn class="btn-primary" id="app-operational-status-off">Turn App Operational Status Off</btn> </div>
+        </section>
+        <section>
+            <h4>Data Contract Operational Status</h4>
+            <h6> These buttons control the back end data collection </h6>
+            <div class="row btn_container"> <btn class="btn-primary" id="data-operational-status-on">Turn Data Operational Status On</btn> <btn class="btn-primary" id="data-operational-status-off">Turn Data Operational Status Off</btn> </div>
+        </section>
+
+        <!-- <div class="row top-20"> <h6 class="register-form">Register railline </h6> </div>     -->
+        
+        
+        
+        <section>
+            <h4>Input train</h4>
+            <div id= "input-train-ID-div"> <input type="text" id="train-number" placeholder="train number"> <btn class="btn-primary" id="submit-oracle">Submit to Oracles</btn> </div>
+        </section>
+        <!-- Move this code down to an appropriate `main class` in the future -->
+       
+        <div id="display-wrapper-oracle-status" class="oracle-status-response"> </div>
+    </main>
+
+   
+</body>
+
+</html>

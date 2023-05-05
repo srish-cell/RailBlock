@@ -1,0 +1,56 @@
+
+body{
+    background-color:black;
+    color: #fff;
+    text-align: center;
+}
+nav{
+    background-color: aliceblue;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  nav ul li {
+    float: right;
+  }
+  
+ nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color:aqua;
+    color: #333;
+  }
+  .reg,.newtrain,.fund{
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: #fff;
+    padding: 2px;
+    border-width: 1.5px;
+    border-style: solid;
+    align-items: center;
+    text-align: center;
+    background-image:url("op.jpg");
+
+    opacity: 50%;
+}
+  
+  main h1,main h4{
+    text-align: center;
+  }
+
+
+  

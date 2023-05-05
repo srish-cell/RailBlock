@@ -1,0 +1,230 @@
+
+/* Nav bar items */
+
+header li {
+    display: inline;
+    padding: 10px;
+    float: right;
+}
+header a {
+    font-size: 20px;
+}
+
+
+.nav_logo_title:hover {
+    color: #5ABD6E;
+}
+
+.nav_logo_title {
+    color: #1E2A3B;
+    font-family: "Arial Rounded MT Bold";
+}
+.site-nav__name {
+    float:left;
+    margin: 20px;
+}
+.site-nav__name-link__name {
+    margin-left: 20px;
+    float:right;
+}
+.site-nav-heading {
+    font-family: "Messina Sans Trial";
+    font-weight: bold;
+    color: #1E2A3B;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.passenger_div {
+    border: 1px;
+    display: none;
+}
+.site-nav-a:hover {
+    outline: 0;
+    text-decoration: none;
+    display: block;
+    border-bottom: 2px solid #9A8167;
+}
+
+/* Spans */
+
+.icon_span {
+    margin: 0px;
+}
+
+/* END */
+body {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_container {
+    margin-top: 200px;
+    color: #fff;
+    padding: 50px;
+    margin: 100px;
+}
+
+
+/* Buttons */
+.btn-primary {
+    margin: auto;
+    opacity: 0.9;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-family: "Messina Sans Trial";
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+#get-trains {
+    margin-top: 20px;
+}
+/* 
+#data-operational-status-on { margin-top: 30px; }
+#data-operational-status-off { margin-top: 30px; }
+#app-operational-status-on { margin-top: 30px; }
+#app-operational-status-off { margin-top: 30px; } */
+
+#submit-railline { 
+    margin-top: 10px;
+}
+#submit-railline-funding {   
+    margin-top: 10px;
+}
+#submit-oracle {
+    position: relative;
+    right: -20%
+}
+#submit-train-info {
+    margin-top: 10px;
+}
+
+/* END */
+
+
+/* Divs */
+/* Note that the margin is top, right, bot, left */
+
+
+
+
+.btn_container {
+    margin-top: 20px;
+}
+/* END */
+
+/* Headings */
+
+/* h1 {
+    color: rgb(249, 199, 199);
+    opacity: 0.8;
+} */
+
+
+h1 {
+    color: black;
+}
+h4 {
+    color: black;
+}
+
+h5 {
+    color: black;
+}
+
+h6 {
+    color: black;
+    opacity: .3;
+    font-size: 13px;
+}
+
+/* END */
+
+/* Sections */
+
+section {
+    margin-bottom: 25px;
+}
+
+#railline-submission-update {
+    overflow-wrap: break-word;
+    margin: auto;
+}
+/* END */
+
+/* Labels */
+
+.field {
+    font-weight: bold;
+    text-align: right;
+    color: rgb(249, 199, 199);
+    opacity: 0.8;
+}
+
+.field-value {
+    color: #0e7fa8;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+/* END */
+
+/* Inputs */
+
+input[type = text] {
+    opacity: 0.4;
+    text-align: center;
+    width: 50%; 
+}
+
+input[type = text-in-railline] {
+    
+    margin: 5px;
+    position: center;
+    opacity: 0.4;
+    text-align: center;
+    width: 100%
+}
+
+input[type = text-in-passenger] {
+    margin: 5px;
+    position: center;
+    opacity: 0.4;
+    text-align: center;
+    width: 100%
+}
+
+
+#max-individual-insurance-amount, #max-total-insurance-amount, #insurance-amount {
+    width: 93%;
+}
+/* #railline-fund-address {
+    width: 100%;
+}
+#train-register-address {
+    width: 100%;
+}
+#train-register-name {
+    width: 100%;
+}  */
+
+/* END */
+
+/* Placeholder */
+::placeholder {
+    color:rgb(0, 0, 0);
+    opacity: 1;
+}
+
+/* Paragraphs */
+
+#train-status-code-information {
+    opacity: 0.8;
+}
